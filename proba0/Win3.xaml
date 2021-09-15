@@ -1,0 +1,15 @@
+﻿<Window x:Class="proba0.Win3"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:proba0"
+        mc:Ignorable="d"
+        Title="Win3" Height="200" Width="250">
+    <Grid>
+        <Button Content="Press me for DeadLock" HorizontalAlignment="Center" Margin="0,63,0,0" VerticalAlignment="Top" Height="40" Width="190" Click="DeadLock"/>
+        <Label x:Name="lblResult" Content="" HorizontalAlignment="Center" Margin="0,10,0,0" VerticalAlignment="Top" Width="190"/>
+        <Button Content="Press me for resolved DeadLock" HorizontalAlignment="Center" Margin="0,115,0,0" VerticalAlignment="Top" Height="40" Width="190" Click="NoDeadLock" />
+
+    </Grid>
+</Window>
